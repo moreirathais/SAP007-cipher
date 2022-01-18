@@ -2,13 +2,53 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <title>Cifra de César</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
-    <script src="index.js" type="module"></script>
+    <section id="sessão1">
+      <main>
+        <div id="root">
+          <img src="./img/MB.png" alt="Logo">
+        </div>
+        <h1>
+          Paleta Vult Rica de Marré Augíssima
+        </h1>
+        <h2>
+          Descrição do Produto
+        </h2>
+        <p>
+          Paleta de sombras com 9 cores e acabamentos que vão do matte ao acetinado.<br>
+          Ideal para compor diversos looks, desde uma produção mais básica a um estilo mais eladorado.<br>
+          Trás sombras de alta pigmentação e fixação com textura macia, o que facilita a aplicação e deixa um efeito aveludado. Perfeita para destacar o olhar.<br>
+          Esta paleta faz parte da coleção especial criada em parceria com a influenciadora Gabriela Sales<br>
+          Fórmula vegana, sem parabenos e cruelty free.
+        </p>
+        <figure>
+          <img src="./img/paleta vult rica de marré augíssima.png" alt="Foto do Produto">
+          <figcaption>Paleta Vult:Rica de Marré Augíssima</figcaption>
+        </figure>
+        <h3>Dúvidas sobre o produto</h3>
+        <form action="">
+          <div>
+            <textarea name="mensagem" id="cifrar" cols="30" rows="10"></textarea>
+          </div>
+         <div class="button">
+            <input type="number" id="Deslocamento">Quantidade </input>
+            <button type="submit">Enviar sua mensagem</button>
+          </div>
+        </form>
+      </main>
+    </section>
+
+    <section id="sessão2">
+      <main>
+        <h1>Dúvidas Clientes</h1>
+        <label>Mensagem Cifrada     <textarea name="mensagem cifrada" id="cifrada" cols="30" rows="10"></textarea></label><br>
+        <label>Mensagem Decifrada <textarea name="mensagem decifrada" id="decifrada" cols="30" rows="10"></textarea></label>
+      </main>
+    </section>
+      <script src="index.js" type="module"></script>
   </body>
+  <footer>Página criada para o primeiro projeto do bootcamp Laboratória SAP 007</footer>
 </html>

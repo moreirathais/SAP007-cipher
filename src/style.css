@@ -1,0 +1,56 @@
+body{
+    background-color:#9f79ee;
+    background-repeat: no-repeat;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+
+img{
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;   
+}
+
+figcaption{
+    color: blueviolet;
+}
+
+h2{
+    text-align: right;
+    color:#551a8b ;
+}
+
+p{
+    text-align: right;
+  
+}
+
+h3{
+    color:#551a8b ;
+}
+
+textarea{
+    resize:none;
+    width: 800px;
+    height: 160px;
+    padding-left: 500px;
+   }
+
+
+button{
+   position: relative;
+   text-align: right;
+}
+
+.hidden{
+    display: none;
+}
+
+footer{
+    background-color: rebeccapurple;
+    color: black;
+    margin-top: 10%;
+}
