@@ -9,15 +9,15 @@
     <section id="sessão1">
       <main>
         <div id="root">
-          <img src="./img/MB.png" alt="Logo">
+          <img class =logo src="./img/MB.png" alt="Logo">
         </div>
-        <h1>
+        <h1 class="produto">
           Paleta Vult Rica de Marré Augíssima
         </h1>
-        <h2>
+        <h2 class="info">
           Descrição do Produto
         </h2>
-        <p>
+        <p class="texto">
           Paleta de sombras com 9 cores e acabamentos que vão do matte ao acetinado.<br>
           Ideal para compor diversos looks, desde uma produção mais básica a um estilo mais eladorado.<br>
           Trás sombras de alta pigmentação e fixação com textura macia, o que facilita a aplicação e deixa um efeito aveludado. Perfeita para destacar o olhar.<br>
@@ -25,17 +25,19 @@
           Fórmula vegana, sem parabenos e cruelty free.
         </p>
         <figure>
-          <img src="./img/paleta vult rica de marré augíssima.png" alt="Foto do Produto">
-          <figcaption>Paleta Vult:Rica de Marré Augíssima</figcaption>
+          <img src="./img/paleta vult rica de marré augíssima.png" class ="paleta"alt="Foto do Produto">
+          <figcaption class="descrição">Paleta Vult:Rica de Marré Augíssima</figcaption>
         </figure>
-        <h3>Dúvidas sobre o produto</h3>
+        <div class="deslocamento">
+          <input type="number" id="deslocamento" min="1" max="1" >Quantidade </input>
+        </div>
+        <h3 class="duvida">Dúvidas sobre o produto</h3>
         <form action="">
           <div>
-            <textarea name="mensagem" id="cifrar" cols="30" rows="10"></textarea>
+            <textarea class="msg1"name="mensagem" id="cifrar" cols="30" rows="10"></textarea>
           </div>
          <div class="button">
-            <input type="number" id="Deslocamento">Quantidade </input>
-            <button type="submit">Enviar sua mensagem</button>
+            <button class="enviar"type="submit" onclick="envio">Enviar sua mensagem</button>
           </div>
         </form>
       </main>
@@ -43,12 +45,12 @@
 
     <section id="sessão2">
       <main>
-        <h1>Dúvidas Clientes</h1>
-        <label>Mensagem Cifrada     <textarea name="mensagem cifrada" id="cifrada" cols="30" rows="10"></textarea></label><br>
-        <label>Mensagem Decifrada <textarea name="mensagem decifrada" id="decifrada" cols="30" rows="10"></textarea></label>
+        <h1 class="clientes">Dúvidas Clientes</h1>
+        <label>Mensagem Cifrada     <textarea class="msg2"name="mensagem cifrada" id="cifrada" cols="30" rows="10"></textarea></label><br>
+        <label>Mensagem Decifrada <textarea class="msg3"name="mensagem decifrada" id="decifrada" cols="30" rows="10"></textarea></label>
       </main>
     </section>
       <script src="index.js" type="module"></script>
   </body>
-  <footer>Página criada para o primeiro projeto do bootcamp Laboratória SAP 007</footer>
+  <footer class="resumo">Página criada para o primeiro projeto do bootcamp Laboratória SAP 007</footer>
 </html>

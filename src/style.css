@@ -3,36 +3,47 @@ body{
     background-repeat: no-repeat;
 }
 
-h1{
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block
+}
+.produto{
     font-family: Arial, Helvetica, sans-serif;
     color: purple;
 }
 
-img{
+.paleta{
     max-width: 100px;
     max-height: 100px;
     display: inline-block;   
 }
 
-figcaption{
+.descrição{
     color: blueviolet;
 }
 
-h2{
+.info{
     text-align: right;
     color:#551a8b ;
 }
 
-p{
+.texto{
     text-align: right;
   
 }
 
-h3{
+.deslocamento{
+  margin-left: 100px;
+}
+
+.duvida .clientes{
     color:#551a8b ;
 }
 
-textarea{
+.msg1,
+.msg2,
+.msg3{
     resize:none;
     width: 800px;
     height: 160px;
@@ -40,7 +51,7 @@ textarea{
    }
 
 
-button{
+.enviar{
    position: relative;
    text-align: right;
 }
@@ -48,8 +59,7 @@ button{
 .hidden{
     display: none;
 }
-
-footer{
+.resumo{
     background-color: rebeccapurple;
     color: black;
     margin-top: 10%;
