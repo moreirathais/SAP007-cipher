@@ -43,12 +43,21 @@ body{
 
 .msg1,
 .msg2,
-.msg3{
+.msg3,
+.msg4,
+.msg5{
     resize:none;
     width: 800px;
     height: 160px;
     padding-left: 500px;
-   }
+ 
+}
+
+label{
+    font-family: sans-serif;
+    color: blueviolet;
+    font-weight: bold;
+}
 
 
 .enviar{

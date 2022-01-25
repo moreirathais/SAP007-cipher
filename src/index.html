@@ -32,12 +32,15 @@
           <input type="number" id="deslocamento" min="1" max="1" >Quantidade </input>
         </div>
         <h3 class="duvida">Dúvidas sobre o produto</h3>
-        <form action="">
+        <form action="Enviar">
           <div>
-            <textarea class="msg1"name="mensagem" id="cifrar" cols="30" rows="10"></textarea>
+            <textarea class="msg1"name="mensagem" id="cifrar" cols="30" rows="10" style="text-transform: uppercase;"></textarea>
           </div>
          <div class="button">
-            <button class="enviar"type="submit" onclick="envio">Enviar sua mensagem</button>
+            <button class="enviar"type="submit" onclick="envio=(e)">Enviar sua mensagem</button>
+          </div>
+          <div>
+            <label>Resposta</label><textarea class="msg5"name="resposta" id="resposta" cols="30" rows="10"></textarea></label>
           </div>
         </form>
       </main>
@@ -48,6 +51,7 @@
         <h1 class="clientes">Dúvidas Clientes</h1>
         <label>Mensagem Cifrada     <textarea class="msg2"name="mensagem cifrada" id="cifrada" cols="30" rows="10"></textarea></label><br>
         <label>Mensagem Decifrada <textarea class="msg3"name="mensagem decifrada" id="decifrada" cols="30" rows="10"></textarea></label>
+        <label> Retorno <textarea class="msg4" name="retorno" id="retorno" cols="30" rows="10" style="text-transform: uppercase;"></textarea></label>
       </main>
     </section>
       <script src="index.js" type="module"></script>
