@@ -1,7 +1,6 @@
 body{
-    background-color:#9f79ee;
-    background-repeat: no-repeat;
-}
+    background-color: #e2cfea;
+    }
 
 .logo{
     max-width: 100px;
@@ -37,8 +36,10 @@ body{
   margin-left: 100px;
 }
 
-.duvida .clientes{
-    color:#551a8b ;
+.duvida,
+.clientes{
+    color:#6247aa ;
+    font-size: 25px;
 }
 
 .msg1,
@@ -55,7 +56,7 @@ body{
 
 label{
     font-family: sans-serif;
-    color: blueviolet;
+    color: #a06cd5;
     font-weight: bold;
 }
 
@@ -69,7 +70,7 @@ label{
     display: none;
 }
 .resumo{
-    background-color: rebeccapurple;
+    background-color: #6247aa;
     color: black;
     margin-top: 10%;
 }

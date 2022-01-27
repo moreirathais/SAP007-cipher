@@ -1,34 +1,31 @@
 const cipher = {
-   encode(quantidade, string) 
-    let msg1 = document.getElementById("cifrar")
-    let quantidadeLetras = String.length
-    let quantidade = document.getElementById("quantidade")
-    
-   for (let i=0; i<quantidadeLetras; i++){
-    let códigoAsc = String.charCodeAt(i)   
-    let codigoLetra = 65
-    let valorMsg1 = ((codigoASC - codigoLetra + quantidade)%26 + codigoLetra);
-        resultadoMsg1 = resultadoMsg1.concat(String.fromCharCode(valorMsg1));
+  encode(quantidade, texto){
+  let resultadoEncode = "";
+    for (let i=0; i<texto.length; i++){
+    let códigoAsc = texto.charCodeAt(i);   
+    let codigoLetra = 65;
+    let valorEncode = ((codigoASC - codigoLetra + quantidade)%26 + codigoLetra);
+    resultadoEncode = resultadoEncode.concat(texto.fromCharCode(valorEncode));
+    }
+    return resultadoEncode;
+    },
+ decode(quantidade,textoCifrado){
+   let resultadoDecode = "";
+   for (let i=0; i< textoCifrado.length; i++){
+    let codigoASC =tecoCifrado.charCodeAt(i)
+       let codigoLetra = 90
+       let valorDecode= ((codigoASC - codigoLetra - quantidade)%26 + codigoLetra);
+       resultadoDecode = resultadoDecode.concat(textoCifrado.fromCharCode(valorDecode));
     }
 
-   return resultadoMsg1;
-    }
-
-    decodeURI(quantidade,string){
-        let msg3 =document.getElementById("decifrada");
-        let quantidadeLetras = string.length
-
-    for (let i=0; i< quantidadeLetras; i++){
-        let codigoASC = String.charCodeAt(i)
-        let codigoLetra = 90
-        let valorMsg3 = ((codigoASC - codigoLetra - quantidade)%26 + codigoLetra);
-        resultadoMsg3 = resultadoMsg3.concat(String.fromCharCode(valorMsg3));
+    return resultadoDecode;
 
     }
+}
 
-    return resultadoMsg3;
-    }
+   export default cipher;
 
+  
 
 
 
@@ -86,4 +83,3 @@ const cipher = {
     //    }   
 //
 
-export default cipher;

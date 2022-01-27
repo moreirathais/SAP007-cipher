@@ -1,29 +1,22 @@
 import cipher from './cipher.js';
 
-let duvidaProduto = document.getElementById("cifrar").value
-
-function maiusculas (){
-    document.getElementById("cifrar").value = document.getElementById.value.toUpperCase();
-    document.getElementById("retorno").value = document.getElementById.value.toUpperCase();
+const elemento = document.getElementById ("button");
+elemento.addEventListener("click", enviar);
+function enviar(){
+    console.log("Entrou")
+ 
+    let texto = document.getElementById("cifrar").value.toUpperCase();
+    document.getElementById("cifrada").value = texto
 }
 
-let String = document.getElementById("cifrar")
+let quantidade = document.getElementById("descolamento");
+function cifrar(){
+    document.getElementById("cifrada").value = cipher.encode(quantidade, texto);
 
-//function mensagemCifrada (duvidaProdutoo){ 
-  //  if(e){
- //   document.getElementById("cifrada").value
-    
-//}
-//}
+    let textoCifrado = document.getElementById("cifrada").value.toUpperCase();
+}
 
-//function mensagemDecifrada (){
-  //  if(document.getElementById("cifrada").value){
-  //     return decode.document.getElementById("decifrada");
-//}
-//}
-
-//function resposta ()
-  //  if(document.getElementById)
+function cifrar ()
 
 
 console.log(cipher);
