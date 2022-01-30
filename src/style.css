@@ -1,12 +1,14 @@
 body{
     background-color: #e2cfea;
-    }
+    text-align:center;
+}
 
 .logo{
     max-width: 100px;
     max-height: 100px;
     display: inline-block
 }
+
 .produto{
     font-family: Arial, Helvetica, sans-serif;
     color: purple;
@@ -23,54 +25,43 @@ body{
 }
 
 .info{
-    text-align: right;
+    text-align: center;
     color:#551a8b ;
 }
 
 .texto{
-    text-align: right;
-  
+    text-align: center;
 }
 
 .deslocamento{
+  color: purple;
+  font-family: sans-serif;
   margin-left: 100px;
 }
 
-.duvida,
-.clientes{
-    color:#6247aa ;
+.label{
+    color: purple;
+}
+
+.mensagem1,
+.mensagem2{
+    width:600px;
+}
+
+.mensagem2{
+    margin-top: 600px;
+}
+
+.duvida,{
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 
-.msg1,
-.msg2,
-.msg3,
-.msg4,
-.msg5{
-    resize:none;
-    width: 800px;
-    height: 160px;
-    padding-left: 500px;
- 
-}
-
-label{
-    font-family: sans-serif;
-    color: #a06cd5;
-    font-weight: bold;
-}
-
-
-.enviar{
+.button{
    position: relative;
-   text-align: right;
 }
 
-.hidden{
-    display: none;
-}
 .resumo{
-    background-color: #6247aa;
     color: black;
     margin-top: 10%;
 }

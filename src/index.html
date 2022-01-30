@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section id="sessão1">
+    <section id="sessao1">
       <main>
         <div id="root">
           <img class =logo src="./img/MB.png" alt="Logo">
@@ -29,32 +29,40 @@
           <figcaption class="descrição">Paleta Vult:Rica de Marré Augíssima</figcaption>
         </figure>
         <div class="deslocamento">
-          <input type="number" id="deslocamento" min="1" max="25" >Quantidade </input>
+          <input type="number" id="deslocamento" min="-25" max="25" requerid>Quantidade </input>
         </div>
-        <h3 class="duvida">Dúvidas sobre o produto</h3>
+        <h3 class="duvida">
+          Dúvidas sobre o produto
+        </h3>
         <form >
           <div>
-            <textarea class="msg1"name="mensagem" id="cifrar" cols="30" rows="10" style="text-transform: uppercase;"></textarea>
-          </div>
-         <div class="button">
-            <button class="enviar" type="button" id= "button">Enviar sua mensagem</button>
+            <label class="label">Mensagem<input name="msg1" class="mensagem1" id="mensagem"type="text" cols="30" rows="10" ></input></label>
           </div>
           <div>
-            <label>Resposta</label><textarea class="msg5"name="resposta" id="resposta" cols="30" rows="10"></textarea></label>
+            <button class="button"type="button" id="button1">Enviar</button>
+          </div>
+          <div>
+            <label class="label">Cifrada/Decifrada<input name="Cifra" class="mensagem2"id="Cifrada" type="text"></input></label>
+          </div>
+          <div>
+            
+          </div>
+          <div>
+            <button class="button" type="button" id="button2">Decifrar</button> 
+          </div>
+          <div>
+            <label class="label">Mensagem<input name="msg1" class="mensagem1" id="mensagem"type="text" cols="30" rows="10" ></input></label>
+          </div>
+          <div class="deslocamento">
+            <input type="number" id="deslocamento" min="-25" max="25" requerid>Quantidade </input>
+          </div>
+          <div>
+            <button class="button"type="button" id="button1">Enviar</button>
           </div>
         </form>
       </main>
     </section>
-
-    <section id="sessão2">
-      <main>
-        <h1 class="clientes">Dúvidas Clientes</h1>
-        <label>Mensagem Cifrada     <textarea class="msg2"name="mensagem cifrada" id="cifrada" cols="30" rows="10"></textarea></label><br>
-        <label>Mensagem Decifrada <textarea class="msg3"name="mensagem decifrada" id="decifrada" cols="30" rows="10"></textarea></label>
-        <label> Retorno <textarea class="msg4" name="retorno" id="retorno" cols="30" rows="10" style="text-transform: uppercase;"></textarea></label>
-      </main>
-    </section>
-      <script src="index.js" type="module"></script>
+    <script src="index.js" type="module"></script>
   </body>
   <footer class="resumo">Página criada por Thaís Moreira Jesus Bonalume para o primeiro projeto do bootcamp Laboratória SAP 007</footer>
 </html>
