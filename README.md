@@ -43,4 +43,20 @@ Ao procurar ajuda a usuária terá acesso a página e aprenderá o contexto da c
 
 O produto soluciona o problema de uma usuária para que envie um pedido de socorro ou qualquer tipo de ajuda.
 
+## 3.Interface
+A página tem fácil utilização por parte da usuário, são aceitas letras maiúscula e minúsculas, offset negativo.Só não abrange caractéres especiais.
+A paleta de cor escolhida foi a lilás, para fugir da tendência que o que é relacionado a mulher é na cor rosa.
+Primeiramente pensada em ter dois blocos, o layout teve que ser alterado para que houvesse funcionalidade.A pretensão é que na atualização do projeto a mensagem seja encaminhada para outra página.
+
+
+## 4. Considerações Gerais
+Com a execução desse projeto , estudei e apliquei:
+HTML
+CSS
+Manipulação DOM
+Git/GitHub
+Planejamento/Organização
+
+
+
 
