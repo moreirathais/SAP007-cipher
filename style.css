@@ -1,0 +1,67 @@
+body{
+    background-color: #e2cfea;
+    text-align:center;
+}
+
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block
+}
+
+.produto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: purple;
+}
+
+.paleta{
+    max-width: 100px;
+    max-height: 100px;
+    display: inline-block;   
+}
+
+.descrição{
+    color: blueviolet;
+}
+
+.info{
+    text-align: center;
+    color:#551a8b ;
+}
+
+.texto{
+    text-align: center;
+}
+
+.deslocamento{
+  color: purple;
+  font-family: sans-serif;
+  margin-left: 100px;
+}
+
+.label{
+    color: purple;
+}
+
+.mensagemUm,
+.mensagemDois{
+    width:600px;
+}
+
+.mensagemDois{
+    margin-top: 600px;
+}
+
+.duvida,{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.button{
+   position: relative;
+}
+
+.resumo{
+    color: black;
+    margin-top: 10%;
+}
