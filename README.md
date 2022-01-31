@@ -47,11 +47,7 @@ O produto soluciona o problema de uma usuária para que envie um pedido de socor
 A página tem fácil utilização por parte da usuário, são aceitas letras maiúscula e minúsculas, offset negativo.Só não abrange caractéres especiais.
 A paleta de cor escolhida foi a lilás, para fugir da tendência que o que é relacionado a mulher é na cor rosa.
 Primeiramente pensada em ter dois blocos, o layout teve que ser alterado para que houvesse funcionalidade.A pretensão é que na atualização do projeto a mensagem seja encaminhada para outra página.
-blob:https://web.whatsapp.com/ca2d1269-9253-4755-a2d3-5c1dab0c9cee
-Primeiro protótipo
-https://trello.com/1/cards/61e5a2ec2dde3c1a4680b54f/attachments/61e6df61a4d77241df330426/previews/61e6df62a4d77241df33042f/download/Slide1.JPG
-https://trello.com/1/cards/61e5a2ec2dde3c1a4680b54f/attachments/61e6df62c1f13f3e9021af83/previews/61e6df63c1f13f3e9021afcc/download/Slide2.JPG
-Segundo protótipo
+
 
 ## 4. Considerações Gerais
 Com a execução desse projeto , estudei e apliquei:
