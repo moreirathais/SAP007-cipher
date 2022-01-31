@@ -3,13 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Cifra de César</title>
+    <link href="./img/favicon.png" rel="icon">
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <section id="sessao1">
       <main>
         <div id="root">
-          <img class =logo src="./img/MB.png" alt="Logo">
+          <img class ="logo" src="./img/MB.png" alt="Logo">
         </div>
         <h1 class="produto">
           Paleta Vult Rica de Marré Augíssima
@@ -25,39 +26,27 @@
           Fórmula vegana, sem parabenos e cruelty free.
         </p>
         <figure>
-          <img src="./img/paleta vult rica de marré augíssima.png" class ="paleta"alt="Foto do Produto">
+          <img src="./img/paleta vult rica de marré augíssima.png" class="paleta" alt="Foto do Produto">
           <figcaption class="descrição">Paleta Vult:Rica de Marré Augíssima</figcaption>
         </figure>
         <div class="deslocamento">
-          <input type="number" id="deslocamento" min="-25" max="25" requerid>Quantidade </input>
+          <label>Quantidade<input type="number" id="deslocamento" min="-25" max="25"/></label>
         </div>
         <h3 class="duvida">
           Dúvidas sobre o produto
         </h3>
         <form >
           <div>
-            <label class="label">Mensagem<input name="msg1" class="mensagem1" id="mensagem"type="text" cols="30" rows="10" ></input></label>
+            <label class="label">Mensagem<input name="msg" class="mensagemUm" id="mensagem" type="text" cols="30" rows="10"/></label>
           </div>
           <div>
-            <button class="button"type="button" id="button1">Enviar</button>
+            <button class="button" type="button" id="button1">Enviar</button>
           </div>
           <div>
-            <label class="label">Cifrada/Decifrada<input name="Cifra" class="mensagem2"id="Cifrada" type="text"></input></label>
-          </div>
-          <div>
-            
+            <label class="label">Cifrada/Decifrada<input name="Cifra" class="mensagemDois" id="Cifrada" type="text"/></label>
           </div>
           <div>
             <button class="button" type="button" id="button2">Decifrar</button> 
-          </div>
-          <div>
-            <label class="label">Mensagem<input name="msg1" class="mensagem1" id="mensagem"type="text" cols="30" rows="10" ></input></label>
-          </div>
-          <div class="deslocamento">
-            <input type="number" id="deslocamento" min="-25" max="25" requerid>Quantidade </input>
-          </div>
-          <div>
-            <button class="button"type="button" id="button1">Enviar</button>
           </div>
         </form>
       </main>

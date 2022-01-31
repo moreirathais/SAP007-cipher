@@ -43,12 +43,12 @@ body{
     color: purple;
 }
 
-.mensagem1,
-.mensagem2{
+.mensagemUm,
+.mensagemDois{
     width:600px;
 }
 
-.mensagem2{
+.mensagemDois{
     margin-top: 600px;
 }
 

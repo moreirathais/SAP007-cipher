@@ -39,6 +39,7 @@ const cipher = {
           msgDecifrada += String.fromCharCode(decifrando);
         }
         return msgDecifrada;
+       
       }
   };
   
