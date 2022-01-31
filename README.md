@@ -1,11 +1,15 @@
 # Cifra de César
 
-![logo](./img/MB.png)
+![logo](/img/MB.png)
+
+**Solução de Cifrar e Decifrar para garantir a segurança de sua mensagem**
 
 ## Índice
 
 - [1. Prefácio](#1-prefácio)
 - [2. Resumo do projeto](#2-resumo-do-projeto)
+- [3. Interface](#3-interface)
+- [4. Considerações Gerais](#4-considerações-gerais)
 
 ## 1. Prefácio
 
@@ -46,18 +50,24 @@ Ao procurar ajuda a usuária terá acesso a página e aprenderá o contexto da c
 O produto soluciona o problema de uma usuária para que envie um pedido de socorro ou qualquer tipo de ajuda.
 
 ## 3.Interface
+
 A página tem fácil utilização por parte da usuário, são aceitas letras maiúscula e minúsculas, offset negativo.Só não abrange caractéres especiais.
 A paleta de cor escolhida foi a lilás, para fugir da tendência que o que é relacionado a mulher é na cor rosa.
 Primeiramente pensada em ter dois blocos, o layout teve que ser alterado para que houvesse funcionalidade.A pretensão é que na atualização do projeto a mensagem seja encaminhada para outra página.
 
+![prototipo1](/areadetrabalho/imagens/prototipo.jpg "Primeiro protótipo")
+![prototipo2](/areadetrabalho/imagens/Slide1.jpg "Segundo protótipo")
+![prototipo3](/areadetrabalho/imagens/Slide2.jpg "Segundo protótipo")
+
 
 ## 4. Considerações Gerais
+
 Com a execução desse projeto , estudei e apliquei:
-HTML
-CSS
-Manipulação DOM
-Git/GitHub
-Planejamento/Organização
+1. HTML
+2. CSS
+3. Manipulação DOM
+4. Git/GitHub
+5. Planejamento/Organização
 
 
 
