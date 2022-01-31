@@ -1,6 +1,6 @@
 # Cifra de César
 
-![logo](/img/MB.png)
+![logo](src/img/MB.png)
 
 **Solução de Cifrar e Decifrar para garantir a segurança de sua mensagem**
 
@@ -55,9 +55,9 @@ A página tem fácil utilização por parte da usuário, são aceitas letras mai
 A paleta de cor escolhida foi a lilás, para fugir da tendência que o que é relacionado a mulher é na cor rosa.
 Primeiramente pensada em ter dois blocos, o layout teve que ser alterado para que houvesse funcionalidade.A pretensão é que na atualização do projeto a mensagem seja encaminhada para outra página.
 
-![prototipo1](/areadetrabalho/imagens/prototipo.jpg "Primeiro protótipo")
-![prototipo2](/areadetrabalho/imagens/Slide1.jpg "Segundo protótipo")
-![prototipo3](/areadetrabalho/imagens/Slide2.jpg "Segundo protótipo")
+![prototipo1](src/img/prototipo.jpg.jfif "Primeiro protótipo")
+![prototipo2](src/img/Slide1.jpg "Segundo protótipo")
+![prototipo3](src/img/Slide2.jpg "Segundo protótipo")
 
 
 ## 4. Considerações Gerais
@@ -68,6 +68,8 @@ Com a execução desse projeto , estudei e apliquei:
 3. Manipulação DOM
 4. Git/GitHub
 5. Planejamento/Organização
+
+Agradeço a equipe Laboratória, meu squad 3 e todas as colegas que contribuiram direta/indiretamente para execução desse projeto.
 
 
 
