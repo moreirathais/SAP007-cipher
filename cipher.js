@@ -4,14 +4,18 @@ const cipher = {
       function (numDesloc, msgUsuario) {
         
         let msgCifrada = "";
+        let codigoA = 65;
+        let codigoZ = 90;
+        let codigoa = 97;
+        let codigoz = 122;
   
         for (let i = 0; i < msgUsuario.length; i++) {
           let cifrando = msgUsuario[i].charCodeAt();
-          if (cifrando >= 65 && cifrando <= 90) {
-            cifrando = ((cifrando - 65 + numDesloc) % 26) + 65
+          if (cifrando >= codigoA && cifrando <= codigoZ) {
+            cifrando = ((cifrando - codigoA + numDesloc) % 26) + codigoA
           }
-          else if (cifrando >= 97 && cifrando <= 122) {
-            cifrando = ((cifrando - 97 + numDesloc) % 26) + 97
+          else if (cifrando >= codigoa && cifrando <= codigoz) {
+            cifrando = ((cifrando - codigoa + numDesloc) % 26) + codigoa
           }
         
   
@@ -25,15 +29,19 @@ const cipher = {
       function (numDesloc, msgUsuario) {
         
         let msgDecifrada = "";
+        let codigoA = 65;
+        let codigoZ = 90;
+        let codigoa = 97;
+        let codigoz = 122;
   
         for (let i = 0; i < msgUsuario.length; i++) {
           let decifrando = msgUsuario[i].charCodeAt();
-          if (decifrando >= 65 && decifrando <= 90) {
-            decifrando = ((decifrando + 65 - numDesloc) % 26) + 65
+          if (decifrando >= codigoA && decifrando <= codigoZ) {
+            decifrando = ((decifrando + codigoA - numDesloc) % 26) + codigoA
           }
   
-          else if (decifrando >= 97 && decifrando <= 122) {
-            decifrando = 122 - ((122 - decifrando + numDesloc) % 26)
+          else if (decifrando >= codigoa && decifrando <= codigoz) {
+            decifrando = codigoz - ((codigoz - decifrando + numDesloc) % 26)
           }
   
           msgDecifrada += String.fromCharCode(decifrando);
@@ -41,6 +49,9 @@ const cipher = {
         return msgDecifrada;
        
       }
-  };
+};
+
+
+  
   
    export default cipher;
