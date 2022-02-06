@@ -41,18 +41,15 @@ body{
 
 .label{
     color: purple;
+    margin-top: 100px;
 }
 
-.mensagemUm,
-.mensagemDois{
-    width:600px;
+.mensagem{
+    width:800px;
+    margin-bottom: 100px;
 }
 
-.mensagemDois{
-    margin-top: 600px;
-}
-
-.duvida,{
+.duvida{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
@@ -61,7 +58,11 @@ body{
    position: relative;
 }
 
+.limpar{
+    margin-bottom: 100px;
+}
+
 .resumo{
     color: black;
-    margin-top: 10%;
+    margin-top: 150px;
 }
